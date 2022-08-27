@@ -91,11 +91,12 @@ DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
 EMAIL_BACKEND='django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST ='smtp.gmail.com'
-EMAIL_HOST_USER='youssef12aly@gmail.com'
-EMAIL_HOST_PASSWORD='hcxzesitznbxgsls'
+EMAIL_HOST_USER='host_mail@gmail.com'
+EMAIL_HOST_PASSWORD='my_pass'
 EMAIL_PORT=587
 EMAIL_USE_TLS = True
-DEFAULT_FROM_EMAIL='youssef12aly@gmail.com'
+DEFAULT_FROM_EMAIL='my_domain@gmail.com'
+
 
 CELERY_BROKER_URL = 'amqp://localhost'
 
